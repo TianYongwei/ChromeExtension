@@ -7,3 +7,12 @@
 
 - [介绍:https://developer.chrome.com/extensions](https://developer.chrome.com/extensions){:target="_blank"}
 - [官方示例:https://developer.chrome.com/extensions](https://developer.chrome.com/extensions){:target="_blank"}
+
+<script type="text/javascript">
+    sonsole.log(123)
+    var aTagArr = [].slice.apply(document.getElementsByTagName("a"));
+
+    aTagArr.forEach(function (e, i) {
+    e.href.indexOf("_blank") > -1 ? e.target = "_blank" : null;
+    });
+</script>
