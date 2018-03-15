@@ -1,6 +1,9 @@
+### mute_zhihu
+
+#### 实验网页
+- [知乎:https://www.zhihu.com/question/20179805](https://www.zhihu.com/question/20179805){:target="_blank"}
+
 #### 参考
 
-- [实验网页:https://www.zhihu.com/question/20179805](https://www.zhihu.com/question/20179805)
-
-- [介绍:https://developer.chrome.com/extensions](https://developer.chrome.com/extensions)
-- [官方示例:https://developer.chrome.com/extensions](https://developer.chrome.com/extensions)
+- [介绍:https://developer.chrome.com/extensions](https://developer.chrome.com/extensions){:target="_blank"}
+- [官方示例:https://developer.chrome.com/extensions](https://developer.chrome.com/extensions){:target="_blank"}

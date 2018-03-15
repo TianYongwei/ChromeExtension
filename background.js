@@ -5,8 +5,15 @@
 // Called when the user clicks on the browser action.
 chrome.browserAction.onClicked.addListener(function(tab) {
   // No tabs or host permissions needed!
+  
   var codeStr = '';
-
+  codeStr += 'console.log("hello");';
+  // var btnNodes = document.getElementsByClassName("Button--primary");
+  // for(var i=0;i<btnNodes.length;i++){
+  //   console.log(btnNodes[i].className);
+  //   console.log(btnNodes[i].className.replace("Button--primary",""));
+  //   btnNodes[i].className=btnNodes[i].className.replace("Button--primary","");
+  // };
   codeStr = 'var btnNodes = document.getElementsByClassName("Button--primary");';
   codeStr += 'for(var i=0;i<btnNodes.length;i++){console.log(btnNodes[i].className);console.log(btnNodes[i].className.replace("Button--primary",""));btnNodes[i].className=btnNodes[i].className.replace("Button--primary","")};';
 
