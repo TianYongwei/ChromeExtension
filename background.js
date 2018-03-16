@@ -33,10 +33,13 @@ chrome.browserAction.onClicked.addListener(function(tab) {
    * 隐藏处理
    * 1、隐藏知乎logo
    * 2、隐藏相关推荐和相关问题
+   * 3、隐藏通知按钮，消息按钮
    */
   codeStr += 'document.getElementsByClassName("Icon--logo")[0].setAttribute("viewBox","0 0 0 0");';
   codeStr += 'var cards = document.getElementsByClassName("Card");';
   codeStr += 'for(var i=0;i<cards.length;i++){if("相关推荐" == cards[i].getAttribute("data-za-detail-view-path-module_name")) {cards[i].style.display="none"}if("RelatedQuestions" == cards[i].getAttribute("data-za-detail-view-path-module")) {cards[i].style.display="none"}};';
+  codeStr += 'document.getElementsByClassName("Icon--news")[0].setAttribute("viewBox","0 0 0 0");';
+  codeStr += 'document.getElementsByClassName("Icon--message")[0].setAttribute("viewBox","0 0 0 0");';
 
   /**
    * 改变fav.icon
