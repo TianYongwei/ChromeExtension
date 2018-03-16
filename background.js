@@ -38,6 +38,12 @@ chrome.browserAction.onClicked.addListener(function(tab) {
   codeStr += 'var cards = document.getElementsByClassName("Card");';
   codeStr += 'for(var i=0;i<cards.length;i++){if("相关推荐" == cards[i].getAttribute("data-za-detail-view-path-module_name")) {cards[i].style.display="none"}if("RelatedQuestions" == cards[i].getAttribute("data-za-detail-view-path-module")) {cards[i].style.display="none"}};';
 
+  /**
+   * 改变fav.icon
+   */
+  codeStr += 'document.getElementsByTagName("link")[0].setAttribute("href","noneStr");';
+  codeStr += 'console.log(document.getElementsByTagName("link")[0]);';
+
   codeStr += 'console.log("结束...");';
   
   chrome.tabs.executeScript({
