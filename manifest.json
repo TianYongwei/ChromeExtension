@@ -3,14 +3,25 @@
   "description": "低调浏览知乎",
   "version": "1.0",
   "permissions": [
-    "activeTab"
+    "declarativeContent",
+    "https://www.zhihu.com/"
   ],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "browser_action": {
-    "default_title": "低调浏览知乎"
+  "page_action": {
+    "default_title": "hu",
+    "default_icon": "hu.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "快捷键"
+    }
   },
   "manifest_version": 2
 }
