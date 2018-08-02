@@ -1,4 +1,4 @@
-### mute_zhihu(低调浏览知乎插件)
+### mute_zhihu(低调浏览知乎插件)(参考awesome design 重新设计markdown文件)
 ---
 
 #### 已完成功能

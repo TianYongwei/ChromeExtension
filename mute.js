@@ -1,9 +1,11 @@
-document.addEventListener("DOMContentLoaded", function(){
-
-    a()
+setTimeout(function(){
+$(document).ready(function(){
+    console.log("jqery is ok;")
+	action();
 });
+},100);
 
-function a () {
+function action() {
     console.log("开始...");
     /**
      * “低调化”处理
@@ -29,11 +31,11 @@ function a () {
         try{
             for(var i = 0;i<btnPrimaryLength;i++){
                 let html = document.getElementsByClassName(element)[0]
-                console.log(element)
-                console.log(html)
+                // console.log(element)
+                // console.log(html)
                 html.className = 
                 html.className.replace(element,"");
-                console.log(html)
+                // console.log(html)
                 // console.error(document.getElementsByClassName(element)[i])
                 // console.error(document.getElementsByClassName(element)[i].className)
                 // console.error(typeof document.getElementsByClassName(element)[i].className)
