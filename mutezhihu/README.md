@@ -3,7 +3,7 @@
 > mute_zhihu(低调浏览知乎插件)
 
 <p align="center">
-  <img src="/mutezhihu.png"/>
+  <img src="./mutezhihu.png"/>
 </p>
 
 ## 已完成功能 :mahjong:
