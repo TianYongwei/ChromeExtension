@@ -2,7 +2,9 @@
 
 > mute_zhihu(低调浏览知乎插件)
 
-![乎](/mutezhihu.png)
+<p align="center">
+  ![乎](/mutezhihu.png)
+</p>
 
 ## 已完成功能
 
