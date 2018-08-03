@@ -1,6 +1,7 @@
 # Mute Zhihu
 
 > mute_zhihu(低调浏览知乎插件)
+
 ![乎](/mutezhihu.png)
 
 ## 已完成功能
