@@ -14,5 +14,11 @@
     "default_title": "MuteZhihu",
     "default_icon": "mutezhihu.png"
   },
+  "icons": {
+    "16": "mutezhihu.png",
+    "32": "mutezhihu.png",
+    "48": "mutezhihu.png",
+    "128": "mutezhihu.png"
+  },
   "manifest_version": 2
 }
